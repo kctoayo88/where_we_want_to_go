@@ -14,11 +14,11 @@ If you want search this place on google map, the LineBot also can handle this.
 
 ## Demonstration
 
-Type the attraction name:
-![demo1](https://github.com/kctoayo88/where_we_want_to_go/blob/master/readme/demo1.jpg)  
+Type the attraction name:  
+![demo1](https://github.com/kctoayo88/where_we_want_to_go/blob/master/readme/demo1.jpg)
 
-Type the andress:
-![demo2](https://github.com/kctoayo88/where_we_want_to_go/blob/master/readme/demo2.jpg)  
+Type the andress:  
+![demo2](https://github.com/kctoayo88/where_we_want_to_go/blob/master/readme/demo2.jpg)
 
 
 ## Reference
