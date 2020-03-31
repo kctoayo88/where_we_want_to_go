@@ -55,6 +55,9 @@ def handle_message(event):
         # check the results
         if len(found_candidates) == 0:
             msg = TextSendMessage(text = '抱歉 我找不到這個地方QQ')
+            # the linebot replys the message
+            line_bot_api.reply_message(event.reply_token, msg)
+
         else:
             # take the first result as the output
             place_id = found_candidates[0]['place_id']
@@ -113,8 +116,8 @@ def handle_message(event):
                 )
             )
 
-    # the linebot replys the message
-    line_bot_api.reply_message(event.reply_token, msg)
+            # the linebot replys the message
+            line_bot_api.reply_message(event.reply_token, msg)
 
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
